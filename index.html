@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Layout - The position Property</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+        <h3 class="title">♫😍Css Position에 대해 알아보자😍♪ </h3>
+        <h6 class="title2">스크롤하고 창 크기를 조절해보세요 / display: block / body{width: 100vw, height: 300vh}</h6>
+        <hr>
+
+    <div class="static">
+        static <br>width: 180px <br>height: 180px
+        <br>기본값. top, bottom, left, right 값에 영향을 받지 않는다.
+    </div>
+    <div class="relative1">
+        relative 1 <br>width: 500px <br>height:200px <br>left: 50px
+        <br>기준: normal position(static일때의 position?)
+        <div class="absolute1">
+            absolute 1 <br>width: 200px <br>height: 200px<br>top: 130px <br>right: 0
+            <br>기준: 가장 가까운 상위 요소
+        </div>
+    </div>
+
+    <div class="relative2">
+        relative 2 <br>width: 200px <br>height: 200px <br>top: 10vh <br>left: 50%
+        <br>기준: normal position(static일때의 position?)
+    </div>
+
+    <div class="fixed">
+        fixed <br>width: 300px <br>height: 300px
+        <br>bottom: 100px; <br>right: 30px;
+        <br>기준: 뷰포트
+    </div>
+    <div class="absolute2">
+        absolute 2 <br>width: 200px <br>height: 200px<br>top: 130px <br>right: 0
+        <br>기준: 상위 요소 없을 경우 body
+    </div>
+    <div class="sticky">
+        sticky <br>width: 200px <br>height: 200px <br>top: 30px <br>left: 50px
+        <br>relative이다가 offset이 뷰포트에 맞으면 fixed로 바뀜
+    </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 300vh;
+    background-color: rgb(238, 238, 238);
+}
+
+.title {
+    /* background-color: aliceblue; */
+    display: block;
+    padding-left: 50px;
+    margin-top: 30px;
+}
+.title2 {
+    display: block;
+    padding-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+/* static
+HTML elements are positioned static by default.
+Static positioned elements are not affected
+by the top, bottom, left, and right properties. */
+
+.static {
+    position: static;
+    background-color: aqua;
+    width: 180px;
+    height: 180px;
+}
+
+/* relative
+Setting the top, right, bottom, and left properties
+of a relatively-positioned element will cause it
+to be adjusted away from its normal position.
+Other content will not be adjusted to fit into
+any gap left by the element. */
+
+.relative1 {
+    position: relative;
+    left: 50px;
+    background-color: blanchedalmond;
+    width: 500px;
+    height: 200px;
+    display: block;
+}
+
+/* fixed
+relative to the viewport, which means it always
+stays in the same place even if the page is scrolled.
+The top, right, bottom, and left properties are used
+to position the element. */
+
+.fixed {
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    width: 300px;
+    height: 300px;
+    background-color: cadetblue;
+}
+
+/* absolute
+is positioned relative to the nearest positioned
+ancestor (instead of positioned relative to the viewport,
+like fixed).
+However; if an absolute positioned element
+has no positioned ancestors, it uses the document body,
+and moves along with page scrolling. */
+
+
+.absolute1, .absolute2 {
+    position: absolute;
+    top: 130px;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    background-color: burlywood;
+}
+
+.relative2 {
+    position: relative;
+    background-color: blanchedalmond;
+    width: 200px;
+    height: 200px;
+    top: 10vh;
+    left: 50%;
+}
+
+/* sticky
+toggles between relative and fixed,
+depending on the scroll position.
+It is positioned relative until
+a given offset position is met in the viewport
+- then it "sticks" in place (like position:fixed). */
+.sticky {
+    position: sticky;
+    background-color: khaki;
+    width: 200px;
+    height: 200px;
+    top: 30px;
+    left: 50px;
+}
