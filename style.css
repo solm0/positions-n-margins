@@ -13,13 +13,20 @@ body {
     /* background-color: aliceblue; */
     display: block;
     padding-left: 50px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .title2 {
-    display: block;
+    display: inline;
     padding-left: 50px;
     margin-top: 5px;
     margin-bottom: 15px;
+}
+
+.link {
+    position: absolute;
+    margin-left: 50px;
+    right: 50px;
+    font-size: 15px;
 }
 
 /* static

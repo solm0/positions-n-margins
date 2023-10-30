@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    height: 11800px;
+    background-image: url('./stairs.png');
+  background-repeat: repeat-y;
+  background-attachment: scroll;
+  background-size: 300px auto;
+  background-position: center;
+}
+
+.title {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    z-index: 1;
+}
+
+
+
+
+.container {
+    position: relative;
+    top: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.c {
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    display: inline;
+    width: 100px;
+    height: 100px;
+    border: 1px rgb(0, 0, 0) solid;
+    color: rgb(0, 0, 0);
+
+    display: flex;
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+    left: calc(50% - 50px);
+}
+
+/* detail, 마우스 호버 시 풀네임과 애칭과 관계 나옴 */
+.d {
+    position: absolute; /* "d" 요소를 절대 위치로 설정 */
+    top: 5px;
+    left: 5px;
+    color: white;
+    z-index: -1;
+    font-size: 10px;
+}
+
+/* blank, c의 사이사이를 띄워줌 */
+.b {
+    height: 400px;
+}
+.b2 {
+    height: 1500px;
+}
+.c1 {
+    top: 60px;
+}
+.c2 {
+    left: calc(50% + 80px);
+    top: 60px;
+}
+.c3 {
+    left: calc(50% - 180px);
+    top: 60px;
+    z-index: 1;
+}
+.c4 {
+    left: calc(50% + 80px);
+    top: 180px;
+}
+.c5 {
+    top: 180px;
+}
+.c6 {
+    left: calc(50% + 200px);
+    top: 60px;
+}
+.c7 {
+    top: 300px;
+    display: inline-block;
+    text-align: center; /* 텍스트를 가로 중앙 정렬합니다. */
+    line-height: 100px; /* 세로 중앙 정렬을 위해 높이와 line-height 값을 설정합니다. */
+    margin-left: 10px;
+    margin-right: 3px;
+    margin-top: 5px;
+}
+.r1 {
+    position: sticky;
+    border: white solid 1px;
+    top: 295px;
+    height: 110px;
+    width: 360px;
+    left: calc(50% + 70px);
+}
+.c8 {
+    top: 300px;
+    left: calc(50% - 180px);
+    z-index: 1;
+}
+.c9 {
+    top: 180px;
+    left: calc(50% + 200px);
+}
+.c10 {
+    top: 420px;
+    left: calc(50% - 300px);
+    display: inline-block;
+    text-align: center; /* 텍스트를 가로 중앙 정렬합니다. */
+    line-height: 100px; /* 세로 중앙 정렬을 위해 높이와 line-height 값을 설정합니다. */
+    margin-left: 10px;
+    margin-right: 3px;
+}
+
+.r2 {
+    position: sticky;
+    border: white solid 1px;
+    top: 295px;
+    height: 230px;
+    width: 240px;
+    left: calc(50% - 310px);
+}
+.c11 {
+    top: 420px;
+    left: calc(50% + 80px);
+}
+.c12 {
+    top: 540px;
+    left: calc(50% + 80px);
+}
+.r3 {
+    position: sticky;
+    border: white solid 1px;
+    top: 55px;
+    height: 230px;
+    width: 480px;
+    left: calc(50% - 550px);
+}
+
+
+.c13 {
+    top: 60px;
+    left: calc(50% - 300px);
+    margin-top: 5px;
+}
+.c14 {
+    top: 180px;
+    left: calc(50% - 540px);
+    display: inline-block;
+    text-align: center; /* 텍스트를 가로 중앙 정렬합니다. */
+    line-height: 100px; /* 세로 중앙 정렬을 위해 높이와 line-height 값을 설정합니다. */
+    
+}
+.c15 {
+        top: 180px;
+        left: calc(50% - 420px);
+        display: inline-block;
+        text-align: center; /* 텍스트를 가로 중앙 정렬합니다. */
+        line-height: 100px; /* 세로 중앙 정렬을 위해 높이와 line-height 값을 설정합니다. */
+}
+.c16 {
+    top: 180px;
+    left: calc(50% - 300px);
+    display: inline-block;
+    text-align: center; /* 텍스트를 가로 중앙 정렬합니다. */
+    line-height: 100px; /* 세로 중앙 정렬을 위해 높이와 line-height 값을 설정합니다. */
+}
+.c17 {
+    top: 300px;
+    left: calc(50% - 540px);
+}
+.c18{
+    top: 300px;
+}
+.c19 {
+    top: 180px;
+    left: calc(50% + 320px);
+}
+.c20 {
+    top: 180px;
+    left: calc(50% - 180px);
+}
+.c21 {
+    top: 540px;
+    left: calc(50% - 540px);
+}
+.c22 {
+    top: 540px;
+    left: calc(50% - 180px);
+}
+.c23 {
+    top: 540px;
+    left: calc(50% - 300px);
+}
+.c24 {
+    top: 420px;
+    left: calc(50% + 200px);
+}
+.c:hover {
+    background-color: black;
+    border: white 1px solid;
+}
+
+.d1 {
+    position: absolute; /* "d" 요소를 절대 위치로 설정 */
+    top: 5px;
+    left: 5px;
+    color: white;
+    z-index: -1;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: left;
+}
+
+
+
+
+
+.bottom {
+    position: absolute;
+    top: 10900px;
+    height: 1300px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    z-index: -1;
+}
+
+.quit {
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+.video {
+    position: fixed;
+    width: 300px;
+    right: 50px;
+    bottom: 50px;
+    right: 50px;
+}
